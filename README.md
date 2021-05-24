@@ -41,11 +41,11 @@ This action can be applied to your workflow and will enable you to send an SMS i
 
 ### `PLIVO_AUTH_ID`
 
-A Plivo Auth_ID. To be stored in [secret](https://docs.github.com/en/actions/reference/environments) or as an environment variable.
+**Required** A Plivo Auth ID. To be stored in [secret](https://docs.github.com/en/actions/reference/environments) or as an environment variable.
 
 ### `PLIVO_AUTH_TOKEN`
 
-A Plivo Auth_Token. To be stored in [secret](https://docs.github.com/en/actions/reference/environments) or as an environment variable.
+**Required** A Plivo Auth Token. To be stored in [secret](https://docs.github.com/en/actions/reference/environments) or as an environment variable.
 
 ## Outputs
 
