@@ -1,5 +1,8 @@
 name: 'Plivo SMS'
 author: 'Plivo'
+branding:
+  color: 'green'
+  icon: 'message-cloud'
 description: 'Send an SMS from GitHub Actions using Plivo'
 inputs:
   fromPhoneNumber:
@@ -23,6 +26,3 @@ outputs:
 runs:
   using: 'node12'
   main: 'dist/main.js'
-branding:
-  color: 'green'
-  icon: 'message-circle'
