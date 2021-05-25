@@ -1,4 +1,4 @@
-name: 'Plivo - SMS'
+name: 'Send SMS - Plivo'
 author: 'Plivo'
 description: 'Send an SMS from GitHub Actions using Plivo'
 inputs:
