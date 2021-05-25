@@ -1,4 +1,4 @@
-# Plivo SMS GitHub Action
+# Plivo SMS - GitHub Action
 
 This action can be applied to your workflow and will enable you to send an SMS in any scenario you wish.
 
