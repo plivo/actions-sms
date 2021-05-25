@@ -1,0 +1,4 @@
+language: node_js
+script: npm install && npm test
+node_js:
+  - "10"

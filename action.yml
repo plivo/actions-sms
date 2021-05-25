@@ -1,0 +1,28 @@
+name: 'Plivo SMS'
+author: 'Plivo'
+description: 'Send an SMS from GitHub Actions using Plivo'
+inputs:
+  fromPhoneNumber:
+    description: 'The Phone number in your Plivo account to send SMS from, which is stored as secret and can also be hardcoded.'
+    required: true
+  toPhoneNumber:
+    description: 'The phone number to which SMS must be sent, is stored as a secret and can also be hardcoded.'
+    required: true
+  message:
+    description: 'The message you want to send'
+    required: true
+  PLIVO_AUTH_ID:
+    description: 'A Plivo Auth ID. To be stored in secret or as an environment variable.'
+    required: true
+  PLIVO_AUTH_TOKEN:
+    description: 'A Plivo Auth Token. To be stored in secret or as an environment variable.'
+    required: true
+outputs:
+  MessageResponse:
+    description: 'Plivo returns a JSON response acknowledging the message.'
+runs:
+  using: 'node12'
+  main: 'dist/main.js'
+branding:
+  color: 'green'
+  icon: 'message-circle'
